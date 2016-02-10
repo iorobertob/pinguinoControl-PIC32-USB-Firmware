@@ -1,0 +1,192 @@
+#N canvas 258 31 811 482 10;
+#X text 356 215 LED_1 is tied to D13 \, LED_2 is tied to RD1 \, notice
+this is the port in the PIC \, not in the Pinguino's CONs.;
+#X obj 4 -4 cnv 50 100 50 empty empty PINGUINO_PIC32_OTG 20 12 1 14
+-262144 -13381 0;
+#X obj 101 146 tgl 15 0 S_D0 S_D0_R empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 141 146 tgl 15 0 S_D1 S_D1_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 184 146 tgl 15 0 S_D2 S_D2_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 225 146 tgl 15 0 S_D3 S_D3_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 265 146 tgl 15 0 S_D4 S_D4_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 299 146 tgl 15 0 S_D5 S_D5_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 332 146 tgl 15 0 S_D6 S_D6_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 365 146 tgl 15 0 S_D7 S_D7_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 417 145 tgl 15 0 S_D8 S_D8_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 448 145 tgl 15 0 S_D9 S_D9_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 478 145 tgl 15 0 S_D10 S_D10_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 508 145 tgl 15 0 S_D11 S_D11_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 538 145 tgl 15 0 S_D12 S_D12_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 568 145 tgl 15 0 S_D13 S_D13_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X text 184 90 D2;
+#X text 225 90 D3;
+#X text 264 90 D4;
+#X text 299 90 D5;
+#X text 332 90 D6;
+#X text 366 90 D7;
+#X text 416 90 D8;
+#X text 448 90 D9;
+#X text 476 90 D10;
+#X text 507 90 D11;
+#X text 537 90 D12;
+#X text 566 91 D13;
+#X text 99 296 A0;
+#X text 142 296 A1;
+#X text 184 296 A2;
+#X text 226 296 A3;
+#X text 266 296 A4;
+#X text 310 296 A5;
+#X text 351 296 A6;
+#X text 393 296 A7;
+#X text 20 344 Analg Input;
+#X floatatom 265 404 5 0 0 0 - A_A4_RI -;
+#X floatatom 309 405 5 0 0 0 - A_A5_RI -;
+#X floatatom 352 405 5 0 0 0 - A_A6_RI -;
+#X floatatom 395 405 5 0 0 0 - A_A7_RI -;
+#X obj 101 120 tgl 15 0 IO_D0 IO_D0_R empty 0 -6 0 10 -262144 -1 -1
+0 1;
+#X obj 141 120 tgl 15 0 IO_D1 IO_D1_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 184 120 tgl 15 0 IO_D2 IO_D2_R empty 17 7 0 10 -262144 -1 -1
+1 1;
+#X obj 225 120 tgl 15 0 IO_D3 IO_D3_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 265 120 tgl 15 0 IO_D4 IO_D4_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 299 120 tgl 15 0 IO_D5 IO_D5_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 332 120 tgl 15 0 IO_D6 IO_D6_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 365 120 tgl 15 0 IO_D7 IO_D7_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 417 119 tgl 15 0 IO_D8 IO_D8_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 448 119 tgl 15 0 IO_D9 IO_D9_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 478 119 tgl 15 0 IO_D10 IO_D10_R empty 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 508 119 tgl 15 0 IO_D11 IO_D11_R empty 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 538 119 tgl 15 0 IO_D12 IO_D12_R empty 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 568 119 tgl 15 0 IO_D13 IO_D13_R empty 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 101 346 tgl 15 0 A_A0 A_A0_R empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 142 346 tgl 15 0 A_A1 A_A1_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 183 346 tgl 15 0 A_A2 A_A2_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 225 346 tgl 15 0 A_A3 A_A3_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 266 346 tgl 15 0 A_A4 A_A4_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 309 346 tgl 15 0 A_A5 A_A5_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 352 346 tgl 15 0 A_A6 A_A6_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 393 346 tgl 15 0 A_A7 A_A7_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 101 320 tgl 15 0 IO_A0 IO_A0_R empty 0 -6 0 10 -262144 -1 -1
+0 1;
+#X obj 142 320 tgl 15 0 IO_A1 IO_A1_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 183 320 tgl 15 0 IO_A2 IO_A2_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 225 320 tgl 15 0 IO_A3 IO_A3_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 266 320 tgl 15 0 IO_A4 IO_A4_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 309 320 tgl 15 0 IO_A5 IO_A5_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 352 320 tgl 15 0 IO_A6 IO_A6_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 393 320 tgl 15 0 IO_A7 IO_A7_R empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 101 376 tgl 15 0 S_A0 S_A0_R empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 142 376 tgl 15 0 S_A1 S_A1_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 183 376 tgl 15 0 S_A2 S_A2_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 225 376 tgl 15 0 S_A3 S_A3_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 266 376 tgl 15 0 S_A4 S_A4_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 309 376 tgl 15 0 S_A5 S_A5_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 352 376 tgl 15 0 S_A6 S_A6_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 393 376 tgl 15 0 S_A7 S_A7_R empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 100 239 bng 15 250 50 0 empty Button empty 17 7 0 10 -262144
+-1 -1;
+#X text 17 237 User Button;
+#X obj 184 237 tgl 15 0 S_D13 S_D13_R empty 17 7 0 10 -159169 -221163
+-1 0 1;
+#X text 149 235 LED_1;
+#X text 299 237 LED_2;
+#X obj 332 238 tgl 15 0 S_LED2 S_LED2_R empty 17 7 0 10 -231623 -257109
+-1 0 1;
+#X obj 569 44 io_cdc_pinguino_control;
+#X text 6 144 Digital State;
+#X text 12 117 Input/Output;
+#X text 15 318 Input/Output;
+#X text 8 374 Digital State;
+#X text 100 90 D0;
+#X text 141 90 D1;
+#X obj 3 21 cnv 15 100 60 empty empty CONTROL_INTERFACE 20 12 1 14
+-262144 -13381 0;
+#X floatatom 102 404 5 0 0 0 - A_A0_RI -;
+#X floatatom 142 404 5 0 0 0 - A_A1_RI -;
+#X floatatom 184 404 5 0 0 0 - A_A2_RI -;
+#X floatatom 226 404 5 0 0 0 - A_A3_RI -;
+#X text -22 404 Analog Input Value;
+#X floatatom 101 176 5 0 1023 0 - - A_D0;
+#X floatatom 141 176 5 0 1023 0 - - A_D1;
+#X floatatom 183 176 5 0 1023 0 - - A_D2;
+#X text -23 176 Analog Output Value;
+#X obj 332 220 tgl 15 0 IO_LED2 IO_LED2_R empty 17 7 0 10 -262144 -1
+-1 0 1;
+#X text 304 218 I/O;
+#X text 554 102 (LED 1);
+#X text 148 219 (D13);
+#X text 569 -20 by: "I/O" - Roberto Becerra;
+#X text 569 -5 io_robertob@hotmail.com;
+#X text 570 11 http://iobridger.wordpress.com;
+#X text 426 24 Pins 11 and 12 seem;
+#X text 428 50 Pinguino.;
+#X text 426 36 not to work in MY;
+#X text 168 103 (Button);
+#X obj 439 272 cnv 30 330 150 empty empty empty 20 12 0 14 -232584
+-66577 0;
+#X obj 459 301 bng 15 250 50 0 reset empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 459 342 bng 15 250 50 0 Devices empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 482 328 Click to show;
+#X text 482 340 available Ports;
+#X text 483 354 on the PD window;
+#X floatatom 617 297 5 0 0 0 - - Port;
+#X text 657 298 Set Port Number;
+#X obj 628 332 bng 15 250 50 0 Open empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 659 330 Open Port;
+#X obj 629 365 bng 15 250 50 0 Close empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 660 363 Close Port;
+#X text 480 300 Reset Default;
+#X text 569 25 24/07/2013;

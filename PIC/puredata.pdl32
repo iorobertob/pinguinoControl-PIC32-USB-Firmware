@@ -1,0 +1,6 @@
+PureData.init pureDataInit#include <puredata.c>
+PureData.communicate pureDataCommunicate#include <puredata.c>
+PureData.sendPinState pureDataSendState#include <puredata.c>
+PureData.setDigital pureDataSetDigital#include <puredata.c>
+PureData.setAnalog pureDataSetAnalog#include <puredata.c>
+PureData.setPin pureDataSetPin#include <puredata.c>
